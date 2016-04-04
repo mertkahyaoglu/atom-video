@@ -1,18 +1,22 @@
 {
   "name": "atom-video",
-  "main": "./lib/main.js",
+  "main": "./lib/atom/main.js",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "description": "Atom Video Package",
+  "keywords": [
+    "video",
+    "video chat"
+  ],
   "activationCommands": {
     "atom-workspace": "atom-video:toggle"
   },
-  "repository": "https://github.com/atom/atom-video",
+  "repository": "https://github.com/mertkahyaoglu/atom-video",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "peerjs": "^0.3.14",
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
     "react-redux": "^4.4.1",
