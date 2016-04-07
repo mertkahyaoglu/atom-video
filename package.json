@@ -16,12 +16,21 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "jquery": "^2.2.3",
     "peerjs": "^0.3.14",
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
     "react-redux": "^4.4.1",
     "redux": "^3.3.1",
     "redux-logger": "^2.6.1",
-    "redux-thunk": "^2.0.1"
+    "redux-thunk": "^2.0.1",
+    "underscore-plus": "^1.6.6"
+  },
+  "configSchema": {
+    "token": {
+      "title": "Github Token",
+      "type": "string",
+      "default": ""
+    }
   }
 }
