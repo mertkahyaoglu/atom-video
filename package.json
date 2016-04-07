@@ -5,7 +5,8 @@
   "description": "Atom Video Package",
   "keywords": [
     "video",
-    "video chat"
+    "video chat",
+    "58072a9ab5a96169b1cb9309ff11ae172f03d052"
   ],
   "activationCommands": {
     "atom-workspace": "atom-video:toggle"
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "jquery": "^2.2.3",
+    "octonode": "^0.7.5",
     "peerjs": "^0.3.14",
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
