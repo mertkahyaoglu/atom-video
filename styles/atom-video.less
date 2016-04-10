@@ -60,6 +60,12 @@
     .username {
       color: white;
       user-select: text !important;
+      transition: color 0.3s ease-in-out;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+        color: @cyan;
+      }
     }
 
     .avatar {
