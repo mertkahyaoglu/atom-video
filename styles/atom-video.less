@@ -50,13 +50,33 @@
     overflow-y: auto;
 
     .sidebar-header {
+
+    }
+
+    .sidebar-body {
+      text-align: center;
+    }
+
+    .username {
+      color: white;
+      user-select: text !important;
+    }
+
+    .avatar {
+      margin: 0 auto;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      border: 1px solid @separator;
     }
 
   }
 
   .starting {
+    display: flex;
     width: 100%;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
   }
 
 }
