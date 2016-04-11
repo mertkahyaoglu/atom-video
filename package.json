@@ -20,7 +20,7 @@
     "jquery": "^2.2.3",
     "octonode": "^0.7.5",
     "peerjs": "^0.3.14",
-    "randomstring": "^1.1.4",
+    "random-number": "0.0.7",
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
     "react-redux": "^4.4.1",
