@@ -5,8 +5,7 @@
   "description": "Atom Video Package",
   "keywords": [
     "video",
-    "video chat",
-    "58072a9ab5a96169b1cb9309ff11ae172f03d052"
+    "video chat"
   ],
   "activationCommands": {
     "atom-workspace": "atom-video:toggle"
