@@ -56,7 +56,6 @@
       display: flex;
       overflow-x: auto;
       overflow-y: hidden;
-      justify-content:
       margin: 10px 10px 5px 10px;
       &:last-child {
         margin-right: 0;
@@ -64,15 +63,52 @@
     }
 
     .video {
-      margin: auto;
+      margin: auto 10px auto auto;
+      width: @width-video;
+      height: @height-video;
+      position: relative;
       video {
         border-radius: 4px;
         border: 1px solid @base-border-color;
-        margin-right: 10px;
-        width: @width-video;
-        height: @height-video;
+        width: @width-video !important;
+        height: @height-video !important;
+        -webkit-transform: scaleX(-1);
+        filter: FlipH;
         background-color: @bg-video;
       }
+    }
+
+    .video:hover .controls {
+      display: flex;
+    }
+
+    .controls {
+      display: none;
+      justify-content: space-around;
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+    }
+
+    .controls span{
+      background-color: orange;
+      color: white;
+      border-radius: 2px;
+      padding: 3px;
+      cursor: pointer;
+    }
+
+    .exit-call {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      font-size: 14px;
+      padding: 3px;
+      cursor: pointer;
+    }
+
+    .exit-call:hover {
+      color: red;
     }
 
   }
@@ -145,7 +181,7 @@
     border: 1px solid @base-border-color;
   }
 
-  .call-status .type1 {
+  .call-status.type1 {
     background-color: green;
   }
 
