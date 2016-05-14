@@ -14,7 +14,7 @@
     flex: 1;
     padding: 10px;
     position: relative;
-
+    align-items: center;
     .starting {
       display: flex;
       width: 100%;
@@ -75,10 +75,11 @@
         -webkit-transform: scaleX(-1);
         filter: FlipH;
         background-color: @bg-video;
+        object-fit: cover;
       }
     }
 
-    .video:first-child {
+    .video:first-child video{
       border: 1px solid orange;
     }
 
