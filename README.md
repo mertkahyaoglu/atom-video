@@ -1,6 +1,6 @@
 # Atom Video Package (beta)
 
->Atom Video Package
+> Atom Video Package
 
 ![A screenshot of your package](screenshot.png)
 
@@ -12,6 +12,9 @@
 * [React.js](https://facebook.github.io/react/)
 * [Redux](http://redux.js.org/)
 * [Webpack](http://webpack.github.io/)
+
+# Slide
+Slides about the project can be found [here](https://slides.com/mertkahyaoglu/senior).
 
 # Note:
 This package is not working right now due to the content security policy of Atom. Once [this](https://github.com/atom/atom/pull/11552) PR gets merged, it will be published to Atom Packages.
