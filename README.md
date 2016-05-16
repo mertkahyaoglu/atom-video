@@ -1,5 +1,17 @@
-# atom-video package
+# Atom Video Package (beta)
 
 >Atom Video Package
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![A screenshot of your package](screenshot.jpg)
+
+# Features
+* Call multiple friends
+* Use your Github username by providing your token
+
+# Built with
+* [React.js](https://facebook.github.io/react/)
+* [Redux](http://redux.js.org/)
+* [Webpack](http://webpack.github.io/)
+
+# Note:
+This package is not working right now due to the content security policy of Atom. Once [this](https://github.com/atom/atom/pull/11552) PR gets merged, it will be published to Atom Packages.
