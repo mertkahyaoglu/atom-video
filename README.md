@@ -2,7 +2,7 @@
 
 >Atom Video Package
 
-![A screenshot of your package](screenshot.jpg)
+![A screenshot of your package](screenshot.png)
 
 # Features
 * Call multiple friends
