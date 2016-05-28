@@ -16,6 +16,3 @@
 
 # Slides
 Slides about the project can be found [here](https://slides.com/mertkahyaoglu/senior).
-
-# Note:
-This package is not working right now due to the content security policy of Atom. Once [this](https://github.com/atom/atom/pull/11552) PR gets merged, it will be published to Atom Packages.
