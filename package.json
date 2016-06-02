@@ -1,7 +1,7 @@
 {
   "name": "atom-video",
   "main": "./lib/atom/main.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom Video Package",
   "keywords": [
     "video",
