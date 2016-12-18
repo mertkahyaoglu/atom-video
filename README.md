@@ -2,7 +2,9 @@
 
 > A plugin for Atom Text Editor that allows video chat between collaborators
 
-![A screenshot of your package](screenshot.png)
+| welcome view             | call view                           |
+| ------------------------ | ----------------------------------- |
+| ![](screenshot.png)| ![](screenshot2.png) |
 
 # Features
 * Call multiple friends
